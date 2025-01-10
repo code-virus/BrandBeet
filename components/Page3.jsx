@@ -3,6 +3,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import React from 'react'
 import Page4 from './Page4'
+import { ScrollTrigger, ScrollSmoother } from "@gsap/react";
 gsap.registerPlugin(useGSAP)
 gsap.registerPlugin(ScrollTrigger)
 
